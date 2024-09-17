@@ -10,6 +10,7 @@ const Generar = () => {
     
     if( nuemeroDigitado < 8 ) {
         alert("La cantidad de caracteres tiene que ser mayor que 8");
+        contrasenna=''
     }
     for( let i=0; i < nuemeroDigitado; i++ ){
         let caracterAleatorio = candenaCaracteres[Math.floor(Math.random() * candenaCaracteres.length)];
@@ -19,4 +20,5 @@ const Generar = () => {
 }
 const Limpiar = () => {
     contrasenna.value = ''
+    cantidadValores.value = ''
 }
