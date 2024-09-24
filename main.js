@@ -1,5 +1,4 @@
 let cantidadValores = document.getElementById('cantidad');
-let boton = document.getElementById('generar');
 let contrasenna = document.getElementById('contrasena');
 const candenaCaracteres = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#$%^&*()';
 
